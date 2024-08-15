@@ -10,7 +10,7 @@ import joblib
 import streamlit as st
 
 # loading the saved model
-loaded_model = joblib.load("D:/ai and data science course/MACHINE LEARNING MIAN PROJECT/dibetes detector/diabetes_model.joblib")
+loaded_model = joblib.load("diabetes_model.joblib")
 
 # creating a function for Prediction
 def diabetes_prediction(input_data):
